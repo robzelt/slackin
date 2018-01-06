@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
 var pkg = require('./../package')
-var args = require('args')
+//var args = require('args')
+import args from 'args'
 var slackin = require('./../dist').default
 
 args
