@@ -14,7 +14,8 @@
         ]
     },
     "dependencies": {
-        "args": "Latest",
+        "args": "latest",
+        "requires": "latest",
         "babel-core": "6.3.26",
         "babel-eslint": "6.0.4",
         "babel-polyfill": "6.3.14",
