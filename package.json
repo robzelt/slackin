@@ -1,4 +1,4 @@
-{
+,{
     "name": "slackin",
     "version": "0.14.0",
     "description": "Public Slack organizations made easy",
@@ -43,7 +43,8 @@
         "supertest": "0.15.0"
     },
     "engines": {
-        "node": "8.9.3"
+        "node": "8.9.3",
+        "npm" : ">3.3.11"
     },
     "bin": {
         "slackin": "./bin/slackin"
