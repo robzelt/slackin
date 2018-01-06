@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 var pkg = require('./../package')
-//var args = require('args')
-import args from 'args'
+
 var slackin = require('./../dist').default
+var args = require('args')
 
 args
   .option(['p', 'port'], 'Port to listen on [$PORT or 3000]', require('hostenv').PORT || process.env.PORT || 3000)
