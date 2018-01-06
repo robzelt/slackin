@@ -44,8 +44,8 @@
         "supertest": "0.15.0"
     },
     "engines": {
-        "node": ">6.1.0",
-        "npm" : ">3.3.11"
+        "node": "6.11.1",
+        "npm" : ">3"
     },
     "bin": {
         "slackin": "./bin/slackin"
