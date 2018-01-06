@@ -45,7 +45,7 @@
     },
     "engines": {
         "node": "6.11.5",
-        "npm" : "Latest"
+        "npm" : "3.10.8"
     },
     "bin": {
         "slackin": "./bin/slackin"
