@@ -87,7 +87,8 @@ selectNodeVersion () {
       exitWithMessageOnError "getting npm version failed"
     fi
 
-    if [[ ! -n "$NODE_EXE" ]]; then
+
+if [[ ! -n "$NODE_EXE" ]]; then
       NODE_EXE=node
     fi
 
@@ -153,5 +154,5 @@ if [[ -n "$POST_DEPLOYMENT_ACTION" ]]; then
   "$POST_DEPLOYMENT_ACTION"
   exitWithMessageOnError "post deployment action failed"
 fi
-
+npm install --save args
 echo "Finished successfully."
